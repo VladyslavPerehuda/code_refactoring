@@ -1,0 +1,12 @@
+E:\univer\2 курс\.NET\lab4\ChatLibrary\bin\Debug\ChatLibrary.dll
+E:\univer\2 курс\.NET\lab4\ChatLibrary\bin\Debug\ChatLibrary.pdb
+E:\univer\2 курс\.NET\lab4\ChatLibrary\obj\Debug\ChatLibrary.csproj.AssemblyReference.cache
+E:\univer\2 курс\.NET\lab4\ChatLibrary\obj\Debug\ChatLibrary.csproj.CoreCompileInputs.cache
+E:\univer\2 курс\.NET\lab4\ChatLibrary\obj\Debug\ChatLibrary.dll
+E:\univer\2 курс\.NET\lab4\ChatLibrary\obj\Debug\ChatLibrary.pdb
+C:\Users\Bebra\Desktop\lab4\ChatLibrary\bin\Debug\ChatLibrary.dll
+C:\Users\Bebra\Desktop\lab4\ChatLibrary\bin\Debug\ChatLibrary.pdb
+C:\Users\Bebra\Desktop\lab4\ChatLibrary\obj\Debug\ChatLibrary.csproj.AssemblyReference.cache
+C:\Users\Bebra\Desktop\lab4\ChatLibrary\obj\Debug\ChatLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Bebra\Desktop\lab4\ChatLibrary\obj\Debug\ChatLibrary.dll
+C:\Users\Bebra\Desktop\lab4\ChatLibrary\obj\Debug\ChatLibrary.pdb

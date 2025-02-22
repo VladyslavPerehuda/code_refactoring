@@ -1,0 +1,10 @@
+E:\univer\2 курс\.NET\lab4\ChatServer\bin\Debug\ChatServer.exe.config
+E:\univer\2 курс\.NET\lab4\ChatServer\bin\Debug\ChatServer.exe
+E:\univer\2 курс\.NET\lab4\ChatServer\bin\Debug\ChatServer.pdb
+E:\univer\2 курс\.NET\lab4\ChatServer\bin\Debug\ChatLibrary.dll
+E:\univer\2 курс\.NET\lab4\ChatServer\bin\Debug\ChatLibrary.pdb
+E:\univer\2 курс\.NET\lab4\ChatServer\obj\Debug\ChatServer.csproj.AssemblyReference.cache
+E:\univer\2 курс\.NET\lab4\ChatServer\obj\Debug\ChatServer.csproj.CoreCompileInputs.cache
+E:\univer\2 курс\.NET\lab4\ChatServer\obj\Debug\ChatServer.csproj.Up2Date
+E:\univer\2 курс\.NET\lab4\ChatServer\obj\Debug\ChatServer.exe
+E:\univer\2 курс\.NET\lab4\ChatServer\obj\Debug\ChatServer.pdb
