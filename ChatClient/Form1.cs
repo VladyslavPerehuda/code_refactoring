@@ -93,6 +93,12 @@ namespace ChatClient
             string message = txtMessage.Text.Trim();
             if (string.IsNullOrEmpty(message)) return;
 
+            SendMessage(message);
+            txtMessage.Clear();
+        }
+
+        private void SendMessage(string message)
+        {
             if (lstUsers.SelectedItem != null)
             {
                 string toUser = lstUsers.SelectedItem.ToString();
@@ -102,9 +108,8 @@ namespace ChatClient
             {
                 _proxy.SendMessage(_nickname, message);
             }
-
-            txtMessage.Clear();
         }
+
 
         private async Task SendMessageAsync(string message)
         {
