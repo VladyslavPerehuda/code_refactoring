@@ -118,10 +118,22 @@ namespace ChatClient
         {
             if (_proxy != null)
             {
-                _proxy.Disconnect(_nickname);
-                _factory.Close();
+                try
+                {
+                    _proxy.Disconnect(_nickname);
+                    if (_factory != null && _factory.State == CommunicationState.Opened)
+                    {
+                        _factory.Close();
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error while disconnecting: {ex.Message}");
+                    _factory.Abort();
+                }
             }
         }
+
 
         private void label1_Click(object sender, EventArgs e)
         {
