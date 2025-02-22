@@ -46,11 +46,11 @@ namespace ChatClient
 
         private async void btnConnect_Click(object sender, EventArgs e)
         {
-            string nickname = txtNickname.Text.Trim();
+            _nickname = txtNickname.Text.Trim(); 
 
-            if (string.IsNullOrEmpty(nickname))
+            if (string.IsNullOrEmpty(_nickname))
             {
-                MessageBox.Show("Будь ласка, введіть нікнейм.");
+                MessageBox.Show("Please enter a nickname.");
                 return;
             }
 
@@ -69,7 +69,7 @@ namespace ChatClient
 
                     _proxy = _factory.CreateChannel();
 
-                    if (!_proxy.Connect(nickname))
+                    if (!_proxy.Connect(_nickname))
                     {
                         throw new Exception("Цей нікнейм вже використовується.");
                     }
